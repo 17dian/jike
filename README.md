@@ -1,11 +1,11 @@
 # jike-week3
 
 
-- yarn 安装包
-- 启动backend中的node服务器
+- yarn 安装包  启动yarn serve
+- 启动backend中的node服务器 node node.js
 
 
-##思路
+## 思路
 
 - 在monacoInstance编辑器中获取字符串数据
 - 点击预览 传递给node服务器
