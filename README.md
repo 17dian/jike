@@ -1,13 +1,27 @@
-# jike-week3
+# jike-week4
 
 
-- yarn 安装包  启动yarn serve
-- 启动backend中的node服务器 node node.js
+## task01
+
+### 思路： 
+
+-  与老师 singlespa-route一致， 在其基础上进行修改
 
 
-## 思路
+-  yarn 然后cd到app-page app-nav 执行yarn
+-  执行yarn serve 
+-  测试地址  http://localhost:8900/#/page/id03 
 
-- 在monacoInstance编辑器中获取字符串数据
-- 点击预览 传递给node服务器
-- node 服务器修改本地test.vue文件
-- 本地文件被修改 webpack会重新打包，所以页面也会被修改
+
+## task02
+
+
+### 思路
+
+- 将tast1 yarn build
+- 然后将dist目录 放入docker中
+
+
+- cd 到nginx中 执行 sh build.sh
+- 然后执行 docker run -p 7000:80  -d hub.docker.com/beijing/geek-nginx:1.0.2 
+- 测试地址 http://localhost:7000/#/page/id03
